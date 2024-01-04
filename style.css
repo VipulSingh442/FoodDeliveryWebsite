@@ -1,0 +1,258 @@
+body{
+    margin : 0px;
+    font-family: Arial;
+    border : border-box;
+}
+
+.logo{
+    height : 80px;
+    width : 80px;
+    border-radius: 50%;
+    background-image: url(Food_Logo.jpg);
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.item a{
+    text-decoration: none;
+    margin: 20px;
+    color : white;
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+}
+
+ul{
+    list-style-type: none;
+    display : flex;
+       
+}
+
+.navbar{
+    height : 90px;
+    background-color: rgba(33, 85, 164,0.8);
+    display : flex;
+    align-items: center;
+}
+
+.border:hover{
+    border : 4px solid green;
+    
+}
+
+.item:hover{
+    color : green;
+}
+
+.item:hover{
+    background-color: lightcoral;
+}
+
+.item{
+    border-radius: 50%;
+}
+
+.belownav{
+    height : 400px;
+    background-image: url(belownavfood3.jpeg);
+    background-size: cover;
+    display : flex;
+    align-items: center;
+    
+}
+
+.heading {
+    text-align: center;
+    color :  green;
+    font-weight: 900;
+    font-family: Bree Serif;
+    font-size: 3.5rem;
+    
+    
+}
+
+.welcome{
+    text-align: center;
+    color : green;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-weight: 500;
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.butt{
+    background-color: orange;
+    color :  red;
+    font-size: 2rem;
+}
+.butt:hover{
+    font-size: 2.3rem;
+    cursor : pointer;
+    
+}
+.content{
+    margin-bottom: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.box{
+    height : 300px;
+    width : 30%;
+    border : 4px solid red;
+    border-radius: 6%;
+    
+    
+}
+
+.services-container{
+    height : 500px;
+    background-image: url(background.webp);
+    background-size: cover;
+    
+    
+}
+
+.boxes{
+    display : flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.hprimary{
+    margin : 0px;
+    padding-top: 40px;
+    font-size: 1.5rem;
+    font-family: Bree Serif;
+}
+
+.box img{
+    height : 150px;
+    width : 30%;
+    
+}
+
+.box1{
+    background-image: url(food1.jpeg);
+    background-size: cover;
+    display : flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.textonfood{
+    color : rgb(255, 0, 0);
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box:hover{
+    cursor : pointer;
+    
+}
+
+.box2{
+    background-image: url(catering.jpeg);
+    background-size: cover;
+    display : flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.box3{
+    background-image: url(delivery3.jpeg);
+    background-size: cover;
+    display : flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.next-sec{
+    height : 300px;
+    background-image: url(clients.jpeg);
+    background-size: cover;
+    
+    
+}
+
+.para{
+    margin : 0px;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Bree Serif;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.image img{
+    height : 120px;
+    width : 120px;
+    margin: 15px;
+    
+    border-radius: 10%;
+    
+}
+
+.flex{
+    height : 250px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image img:hover{
+    height : 140px;
+    width : 140px;
+    border : 2px solid white;
+}
+
+.foot{
+    height : 400px;
+    background-image: url(back.webp);
+    background-size: cover;
+}
+
+.foot-img p{
+    margin : 0px;
+    padding : 25px;
+    font-size: 1.5rem;
+    font-family: Bree Serif;
+    font-weight: 500;
+}
+
+#name{
+    width : 350px;
+    
+}
+
+#email{
+    width : 350px;
+}
+
+#Mobile{
+    width : 350px;
+}
+
+#Feedback{
+    width : 350px;
+    height : 100px;
+}
+
+#Feedback::placeholder {
+       transform: translateY(-240%);
+}
+
+.copyright{
+    background-color: #0f1111;
+    color : white;
+    font-size: 0.8rem;
+   margin-bottom: 0px;
+}
